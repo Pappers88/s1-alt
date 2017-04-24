@@ -1,0 +1,384 @@
+.container-fluid {
+
+    padding: 0px;
+
+}
+
+
+
+
+/*navbar*/
+
+#myNavbar {
+    width: 100%;
+    border: 1px solid gray;
+    background-color: #1D2026;
+}
+
+header {
+    padding: 1em;
+    color: white;
+    background-color: #1D2026 ;
+    clear: left;
+    text-align: left;
+}
+
+footer{
+    padding: 1em;
+    color: white;
+    background-color:#1D2026 ;
+    font-family: 'Josefin Sans', sans-serif;
+    clear: left;
+    text-align: center;
+}
+
+nav ul li a{
+	display: block;
+	text-decoration: none;
+	font-family:  'Josefin Sans', sans-serif;
+	color: #fff;
+}
+
+nav ul {
+	list-style: none;
+	text-align: center;
+}
+
+nav ul li {
+	font-size: 20px;
+	border-bottom: 1px solid #444;
+	padding: 10px 5px;
+	background-color: #1D2026;
+}
+
+nav ul li:hover {
+	background-color: #555;
+	transition: all .3s ease;
+
+}
+
+a:hover{
+
+	color: white;
+	text-decoration: none;
+}
+
+@media screen and (min-width: 665px){
+	nav{
+		font-size: 0;
+	}
+	nav ul li {
+		display: inline-block;
+		width: 120px;
+		font-size: 20px;
+		border-bottom: none;
+	}
+
+	ul{
+
+		background-color: #1D2026;
+}
+
+nav{
+
+	float: left;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*{
+  margin:0;
+  padding:0;
+}
+
+a:hover, a:focus{
+
+	text-decoration: none;
+	color: white;
+}
+
+
+
+/*social buttons*/
+#social{
+
+	float: left;
+	display: block;
+
+	
+
+}
+
+h1{
+
+	font-family:  'Josefin Sans', sans-serif;
+	color:;
+}
+
+
+/*newsletter sign up*/
+
+#nl{
+
+	margin-left: 5px;
+}
+
+#newsletter{
+	float: right;
+	margin-top: 50px;
+}
+
+#email1{
+	font-family:  'Josefin Sans', sans-serif;
+	width: 300px;
+	font-size: 15px;
+	color: #555;
+}
+
+button{
+	font-family:  'Josefin Sans', sans-serif;
+	font-size: 15px;
+	width: 65px;
+	height: 40px;
+	border-radius: 10px;
+}
+
+
+
+
+
+
+/*form on private booking page*/
+
+      .formtxt{
+
+      	text-align: center;
+      	margin-top: 150px;
+      }
+
+
+        #formcon{
+            width: 600px;
+            margin-top: 90px;
+            margin-left: 500px;
+            margin-bottom: 60px;
+
+         }
+         
+         
+         .btn1{/*to offset submit buttton*/
+
+         margin-left: 180px;
+
+        }
+
+        .frm{
+
+        	font-size: 17px;
+        	margin-top: 5px;
+        }
+
+
+         .label{/*styling labels for the inputs*/
+            display: inline-block;
+            float: left;
+            clear: left;
+            text-align: left;
+            width: 100px;
+            margin-top: 5px;
+         }
+
+         legend{
+            font-size: 15px;
+            background-color: #fff;
+            border-radius: 5px;
+            border: 1px solid #999;
+            padding: 4px 15px;
+         }
+            
+         label.field{
+            display: block;
+            text-align: right;
+            width: 100px;
+            float: left;
+         }
+         input, textarea{/*styling for input fields*/
+            display: inline-block;
+            width: 200px;
+            border-radius: 5px;
+            padding: 6px 8px; 
+            margin-top: 6px;
+            margin-left: 5px;  
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 15px;
+         }
+
+       
+       fieldset{
+            width: 450px;
+            border: 1px solid #999;
+            border-radius: 20px;
+            clear: both;
+            padding: 20px;
+            margin-bottom: 100px;
+            background-color:rgba(129, 187, 201,.2);
+         }
+
+
+        /*fightnight*/ 
+
+        #upcom{
+
+            margin-top: 100px;
+            text-align: center;
+
+        }
+
+        .fnimg{
+
+        	margin-bottom: 20px;
+        	margin-top: 30px;
+        	height: 510px;
+        	width: 510px;
+        }
+
+        .lincrol{
+
+        	text-align: center;
+        	
+       }
+
+
+
+        /*media page*/
+
+
+       #med{
+
+       	text-align: center;
+       	margin-top: 100px;
+
+
+       }
+
+       .medp{
+
+       	color:;
+       	text-align: center;
+       	font-family: 'Josefin Sans', sans-serif;
+       	font-size: 20px;
+       	margin-bottom: 50px;
+       }
+
+        /*hp modal*/
+
+            
+ .modal-title{
+        
+        font-family: 'Cinzel Decorative', cursive;
+        color: #1D2026;
+        text-align: center;
+    }
+    
+    .modal-body{
+        
+        font-family: 'Cinzel Decorative', cursive;
+        color: #1D2026;
+        text-align: center;
+        
+    }
+    
+        
+    .close{
+        
+        color: #1D2026;
+        
+    }  
+
+        /*fighters*/
+
+        .row{
+
+        	clear: both;
+        }
+
+        .con1, .con2, .con3, .con4, .con5, .con6{
+            height: 400px;
+            width: 300px;
+            background-color: #1D2026;
+            border-radius: 25px;
+        }
+        .fc1, .fc2, .fc3, .fc4, .fc5, .fc6{
+            height: 100%;
+            width: 100%;
+       
+        }
+        .fght{
+            font-family:  'Josefin Sans', sans-serif;
+            color: white;
+            margin-top: 40px;
+            text-align: center;
+        }
+      .flip-container1{
+            perspective: 1000px;
+            margin-top: 70px;
+            margin-bottom: 100px;
+        }
+        .flip-container1:hover .flipper1, .flip-container1.hover .flipper1{
+            transform: rotateY(180deg);
+        }
+        .flip-container1, .front1, .back1{
+            width: 300px;
+            height: 400px;
+        }
+        .flipper1{
+            transition: 0.6s;
+            transform-style: preserve-3d;
+            position: relative;
+        }
+        .front1, .back1{
+            backface-visibility: hidden;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .front1{
+            z-index: 2;
+        }
+        .back1{
+            transform: rotateY(180deg);
+            background-color: #1D2026;
+        }
+
+        .fightp{
+
+        	font-family: 'Josefin Sans', sans-serif;
+        	color: white;
+        	text-align: center;
+        	font-size: 30px;
+        	margin-top: 200px;
+        }
+
+
+
+
+         
+        
+        /*homepage news text*/
+        .nwsp{
+
+        	float: right;
+        	margin: 10px;
+        	font-family: 'Josefin Sans', sans-serif;
+        	color: ;
+        	font-size: 20px;
+        	visibility:;
+        }
+
+        .nwsimg{
+
+        	height: 510px;
+        	width: 600px;
+        }
